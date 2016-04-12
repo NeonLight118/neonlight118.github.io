@@ -19,6 +19,9 @@ $(document).ready(function() {
         }); 
     
     });
+	function resume(){
+		$( "p" ).append( "<embed src=\"images/Sebastian-Tobiasz.pdf\" height=\"1100px\" width=\"100%\">" );
+	}
     
 });
 $( document ).on( "pagecreate", function() {
